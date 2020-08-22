@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POC EmojiArea</title>
+    <link rel="stylesheet" href="./libs/css/emojionearea.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="span6">
+            <textarea id="emojionearea1">Default :smile:</textarea>
+        </div>
+        <div class="span6">
+            <input type="text" id="emojionearea2" value="inline :+1:" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="span6">
+            <div id="emojionearea3">Support autocompleting, insert ":" </div>
+        </div>
+        <div class="span6">
+            <input type="text" id="emojionearea4" value=":smiley_cat:" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="span6">
+            <textarea id="emojionearea5">Disable tones, disable autocomplete :dog::cat:</textarea>
+        </div>
+        <div class="span6">
+            <div id="standalone" data-emoji-placeholder=":smiley:"></div>
+        </div>
+    </div>
+
+    <script src="./libs/js/jQuery.js"></script>
+    <script src="./libs/js/emojionearea.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
